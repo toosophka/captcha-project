@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   }
 
   const token = req.body['smart-token'];
-  const secret = 'ysc2_hmmhq5eMblmzP4CQNdfoJVam3jIBTga2Wgzk8idc73fa2854';
+  const secret = 'ysc2_w4WERdThN7ic3OM7TCCnt0GuFcBZiWFVFWdiGfR5f5c69b36';
 
   if (!token) {
     return res.status(400).json({ success: false, message: 'Нет токена' });
